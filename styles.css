@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #121212;
+    padding: 1em;
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+header > div > a {
+    text-decoration: none;
+    color: white;
+}
