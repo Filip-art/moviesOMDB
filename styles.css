@@ -4,8 +4,14 @@ body {
     box-sizing: border-box;
 }
 
+.body-container {
+    max-width: 340px;
+}
+
 header {
-    background: #121212;
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    background-position: center;
     padding: 1em;
 }
 
