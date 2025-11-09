@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Watchlist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+
+
 </head>
 <body>
     <div class="body-container">
@@ -13,8 +18,43 @@
                 <h1>Find your film</h1>
                 <a href="watchlist.html">My Watchlist</a>
             </div>
+
+            <form action="" id="search-form">
+                <input type="text" name="searchMovie" id="searchMovie" aria-label="Movie search input" placeholder="seach for a movie">
+                <button id="searchBtn" type="submit">Search</button>
+            </form>
         </header>
+
+        <main id="search-results">
+            
+        </main>
+        <!-- <main>
+            <div class="movie-container">
+                <div class="poster">
+                    <img src="imgs/Old-Blade-Runner.jpg" alt="Blade runner poster">
+                </div>
+                <div class="movie-details">
+                    <div class="movie-title">
+                        <h3>Blade Runner</h3>
+                        <p><i class="fa-solid fa-star"></i> 8.1</p>
+                    </div>
+
+                    <div class="movie-length-genre">
+                        <p>117 min</p>
+                        <p>Action, Drama, Sci-fi</p>
+                        <button> <i class="fa-solid fa-square-plus"></i> Watchlist</button>
+                    </div>
+
+                    <div class="movie-describtion">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, id nisi praesentium est cupiditate magnam consequatur labore reiciendis fugiat aut deserunt fugit quia quis autem doloremque, ipsa omnis sunt laborum?</p>
+                    </div>
+
+                </div>
+            </div>
+        </main> -->
+
     </div>
+    <script src="https://kit.fontawesome.com/cb657b71bb.js" crossorigin="anonymous"></script>
     <script src="index.js"></script>
 </body>
 </html>
